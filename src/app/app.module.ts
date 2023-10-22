@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ElementsModule } from './elements/elements.module';
-import { CollectionsHomeComponent } from './collections/collections-home/collections-home.component';
+import { CollectionsModule } from './collections/collections.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,8 @@ import { CollectionsHomeComponent } from './collections/collections-home/collect
   imports: [
     BrowserModule,
     AppRoutingModule,
-	ElementsModule
+	ElementsModule,
+	CollectionsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
