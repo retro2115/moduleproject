@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 
 @Component({
@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class PlaceholderComponent {
 	@Input() header = true;
-	@Input lines = 3;
+	@Input() lines = 3;
 
 }

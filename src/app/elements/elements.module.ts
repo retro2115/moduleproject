@@ -4,12 +4,14 @@ import { CommonModule } from '@angular/common';
 import { ElementsRoutingModule } from './elements-routing.module';
 import { ElementshomeComponent } from './elementshome/elementshome.component';
 import { PlaceholderComponent } from './placeholder/placeholder.component';
+import { TimesDirective } from './times.directive';
 
 
 @NgModule({
   declarations: [
     ElementshomeComponent,
-    PlaceholderComponent
+    PlaceholderComponent,
+    TimesDirective
   ],
   imports: [
     CommonModule,
